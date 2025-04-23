@@ -1,0 +1,19 @@
+{
+    "markdown.marp.themes": [
+        "themes/dracula.css",
+        "themes/neobeam.css",
+        "themes/neobeam-lund.css",
+        "themes/neobeam-dsek.css",
+        "themes/neobeam-csek.css",
+        "themes/neobeam-beamer.css",
+        "themes/jobs.css",
+        "themes/king.css",
+        "themes/einstein.css",
+        "themes/arendt.css",
+        "themes/copernicus.css",
+        "themes/simple.css",
+        "themes/descartes.css",
+        "themes/freud.css",
+        "themes/godel.css"
+    ]
+}
