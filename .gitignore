@@ -1,2 +1,4 @@
 out
 .DS_Store
+demos/registry-setup/registry-data/*
+!demos/registry-setup/registry-data/.git-keep
