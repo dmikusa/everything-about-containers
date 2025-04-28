@@ -33,7 +33,7 @@ _class: titlepage
 _footer: Photo by <a href="https://unsplash.com/@nosaka?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">nikko osaka</a> on <a href="https://unsplash.com/photos/brown-and-red-shipping-containers-WzZjyThDoR8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 _paginate: false
 -->
-![bg left:40%](./img/nikko-osaka-WzZjyThDoR8-unsplash.jpg)
+![bg left:40%](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/nikko-osaka-WzZjyThDoR8-unsplash.jpg)
 
 # Everything You Wanted to Know About Containers but were Afraid to Ask
 
@@ -85,7 +85,7 @@ It's common. Many devs use containers, but don't really understand them. It's ea
 
 <div class="only-img">
 
-![drop-shadow height:12em](./img/flair.jpg)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/flair.jpg)
 
 </div>
 
@@ -104,7 +104,7 @@ You can get by with the minimum amount of container flair, but there are benefit
 
 <div class="only-img">
 
-![drop-shadow height:12em](./img/they-re-everywhere.jpg)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/they-re-everywhere.jpg)
 
 </div>
 
@@ -122,7 +122,7 @@ _footer: 'Photo by <a href="https://unsplash.com/@syhussaini?utm_content=creditC
 
 <div class="only-img">
 
-![drop-shadow height:12em](./img/syed-hussaini-F2JwUVuRz2I-unsplash.jpg)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/syed-hussaini-F2JwUVuRz2I-unsplash.jpg)
 
 </div>
 
@@ -138,7 +138,7 @@ It's a little easier to describe what it's *not*.
 
 <div class="only-img">
 
-![drop-shadow height:12em](./img/docker-mark-blue-x.png)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/docker-mark-blue-x.png)
 
 </div>
 
@@ -152,7 +152,7 @@ It's not Docker. It's not a Dockerfile. This is a very common misconception and 
 
 <div class="only-img">
 
-![drop-shadow height:12em](./img/vm-xx.jpg)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/vm-xx.jpg)
 
 <!--
 It's not a VM. Containers are similar to VMs and it's a natural way to think about what a container is doing for you, because they both provide isolation. There are differences though. VMs offer a higher level of isolation, isolating an entire system, while containers share a kernel because they isolate at the process level. We'll talk more about the differences on an upcoming slide.
@@ -224,7 +224,7 @@ Security is good, but different from VMs. VMs start with high isolation which gi
 
 <div class="only-img">
 
-![drop-shadow height:12em](./img/image.png)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/image.png)
 
 </div>
 
@@ -249,17 +249,17 @@ Images! We need an image.
 <div class="columns">
 <div class="column center-img top-pad">
 
-![drop-shadow height:12em](./img/files.webp)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/files.webp)
 
 </div>
 <div class="column center-img plus">
 
-![drop-shadow height:5em](./img/plus.webp)
+![drop-shadow height:5em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/plus.webp)
 
 </div>
 <div class="column center-img top-pad">
 
-![drop-shadow height:12em](./img/config.png)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/config.png)
 
 </div>
 
@@ -273,7 +273,7 @@ An image is a collection of files plus some configuration.
 
 <div class="only-img">
 
-![drop-shadow height:12em](./img/layers.png)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/layers.png)
 
 </div>
 
@@ -289,7 +289,7 @@ An image is made up of one or more layers, each with it's own unique set of file
 
 <div class="only-img" style="padding-top: 1em">
 
-![drop-shadow height:10em](./img/shared-layers.png)
+![drop-shadow height:10em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/shared-layers.png)
 
 </div>
 
@@ -305,7 +305,7 @@ When users pull your images, the base image only gets downloaded once but it can
 
 <div class="only-img" style="padding-top: 1em">
 
-![drop-shadow height:10em](./img/shared-layers-hashes.png)
+![drop-shadow height:10em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/shared-layers-hashes.png)
 
 <div style="text-align: right">sha256:32acffd</div>
 </div>
@@ -328,7 +328,7 @@ The configuration for the image also has a hash and so does the image as a whole
 
 <div class="only-img" style="padding-top: 1em">
 
-![drop-shadow height:10em](./img/registry.png)
+![drop-shadow height:10em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/registry.png)
 
 </div>
 
@@ -350,7 +350,7 @@ A "registry" is just an HTTP service. There's a defined API that's part of the O
 
 # Running Containers
 
-![bg right:55%](./img/wes-tindel-XtVl8IL-8EI-unsplash.jpg)
+![bg right:55%](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/wes-tindel-XtVl8IL-8EI-unsplash.jpg)
 
 <!--
 There are many ways to run a container. That's part of the beauty of containers. They are a standard, so you have all sorts of different software that can take your container images and run them.
@@ -366,7 +366,7 @@ What is actually happening here when your container is run though?
 
 <div class="only-img" style="padding-top: 1em">
 
-![drop-shadow height:10em](./img/linux-kernel.jpg)
+![drop-shadow height:10em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/linux-kernel.jpg)
 
 </div>
 
@@ -404,7 +404,7 @@ In a nutshell, these all allow a container (i.e. isolated process) to be sandbox
 
 <div class="only-img" style="padding-top: 1em">
 
-![drop-shadow height:12em](./img/files.webp)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/files.webp)
 
 </div>
 
@@ -424,7 +424,7 @@ In this case, it combines all of the layers into a filesystem for your container
 
 <div class="only-img" style="padding-top: 1em">
 
-![drop-shadow height:12em](./img/config.png)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/config.png)
 
 </div>
 
@@ -445,7 +445,7 @@ These are all things that can change the way the container operates, but don't r
 
 <div class="only-img" style="padding-top: 1em">
 
-![bg fit left:40%](./img/easy-button.jpg)
+![bg fit left:40%](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/easy-button.jpg)
 
 </div>
 
@@ -461,7 +461,7 @@ These tools handle all of the heavy lifting. Fetching images, storing images, cr
 
 <div class="only-img">
 
-![drop-shadow height:12em](./img/hard-way.webp)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/hard-way.webp)
 
 </div>
 
