@@ -16,8 +16,8 @@ This runs a registry locally. It can be used if you want to run the demos offlin
    ```
 
 3. Load some images into the registry. This uses [skopeo](https://github.com/containers/skopeo).
-   1. `skopeo copy --multi-arch all docker://ubuntu:jammy docker://localhost:5001/ubuntu:jammy`
-   2. `skopeo copy --multi-arch all docker://ubuntu:noble docker://localhost:5001/ubuntu:noble`
+   1. `skopeo copy --multi-arch all docker://library/ubuntu:jammy docker://localhost:5001/library/ubuntu:jammy`
+   2. `skopeo copy --multi-arch all docker://library/ubuntu:noble docker://localhost:5001/library/ubuntu:noble`
 
 4. Go to `http://localhost:8070/` and see the images loaded.
 
