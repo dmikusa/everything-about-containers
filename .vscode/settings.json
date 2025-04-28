@@ -1,19 +1,19 @@
 {
     "markdown.marp.themes": [
-        "themes/dracula.css",
-        "themes/neobeam.css",
-        "themes/neobeam-lund.css",
-        "themes/neobeam-dsek.css",
-        "themes/neobeam-csek.css",
-        "themes/neobeam-beamer.css",
-        "themes/jobs.css",
-        "themes/king.css",
-        "themes/einstein.css",
-        "themes/arendt.css",
-        "themes/copernicus.css",
-        "themes/simple.css",
-        "themes/descartes.css",
-        "themes/freud.css",
-        "themes/godel.css"
+        "slides/themes/dracula.css",
+        "slides/themes/neobeam.css",
+        "slides/themes/neobeam-lund.css",
+        "slides/themes/neobeam-dsek.css",
+        "slides/themes/neobeam-csek.css",
+        "slides/themes/neobeam-beamer.css",
+        "slides/themes/jobs.css",
+        "slides/themes/king.css",
+        "slides/themes/einstein.css",
+        "slides/themes/arendt.css",
+        "slides/themes/copernicus.css",
+        "slides/themes/simple.css",
+        "slides/themes/descartes.css",
+        "slides/themes/freud.css",
+        "slides/themes/godel.css"
     ]
 }
