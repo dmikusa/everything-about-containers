@@ -4,5 +4,6 @@ This repo contains my 'Everything you wanted to know about containers but were a
 
 Links to the actual slides:
 
-- [PDF](./Slides.pdf)
-- [PPTX](./Slides.pptx)
+- [HTML](./output/html/Slides.html)
+- [PDF](./output/Slides.pdf)
+- [PPTX](./output/Slides.pptx)

@@ -66,6 +66,18 @@ _paginate: false
 
 # Slides
 
+[https://github.com/dmikusa/everything-about-containers]()
+
+<div class="only-img">
+
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/qr-code.png)
+
+</div>
+
+<!--
+Slides are available at the link above.
+-->
+
 ---
 
 # Why are we here today?
