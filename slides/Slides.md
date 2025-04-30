@@ -468,7 +468,7 @@ These tools handle all of the heavy lifting. Fetching images, storing images, cr
 <!--
 These tools are just using Linux Kernel APIs, so one can write code and build their own containers. In most cases, you'd want to use existing tooling (faster/easier/more secure), but it's good to remember that you can do this stuff too! It's achievable and there may come a day when you can take advantage of this in your projects! 
 
-To experiment, the Linux Kernel also provides some tooling that you can use to manipulate these APIs. For example, `unshare` allows you to start processes running with different namespaces. There's also libcgroup, which provides tooling for interacting with Cgroups.
+To experiment, the Linux Kernel also provides some tooling that you can use to manipulate these APIs. For example, `unshare` allows you to start processes running with different namespaces. There's also libcgroup, which provides tooling for interacting with Cgroups. Tools like Docker & Podman run also support options for adjusting some of the cgroup & namespace configurations for the containers that they launch.
 -->
 
 ---

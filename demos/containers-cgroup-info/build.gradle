@@ -1,0 +1,77 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.4.+'
+	id 'io.spring.dependency-management' version '1.1.+'
+	id 'org.graalvm.buildtools.native' version '0.10.+'
+	id 'gg.jte.gradle' version '3.1.+'
+	id "com.diffplug.spotless" version "6.+"
+}
+
+group = 'com.mikusa'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(24)
+	}
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+	compileClasspath {
+		resolutionStrategy.activateDependencyLocking()
+	}
+}
+
+// Use Lenient mode which allows builds even if there are newer dependencies available
+//  https://docs.gradle.org/current/userguide/dependency_locking.html#running_a_build_with_lock_state_present
+dependencyLocking {
+	lockMode = LockMode.LENIENT
+}
+
+jar {
+	enabled = false
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	implementation 'gg.jte:jte:3.1.+'
+	implementation 'gg.jte:jte-spring-boot-starter-3:3.1.+'
+	jteGenerate('gg.jte:jte-native-resources:3.1.+')
+
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+jte {
+	generate()
+	jteExtension('gg.jte.nativeimage.NativeResourcesExtension')
+	binaryStaticContent = true
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+spotless {
+	java {
+		removeUnusedImports()
+		palantirJavaFormat().formatJavadoc(true)
+		target project.fileTree(project.rootDir) {
+			include '**/*.java'
+			exclude '**/build/**'
+		}
+	}
+}
