@@ -8,7 +8,6 @@ fi
 
 rm -rf ./out/
 mkdir ./out/
-cp -R ./slides/img out/img
 marp -o ./out/ \
     -I ./slides \
     --no-config-file \
