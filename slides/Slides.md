@@ -68,7 +68,7 @@ _paginate: false
 
 [https://github.com/dmikusa/everything-about-containers]()
 
-<div class="only-img">
+<div class="center-img">
 
 ![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/everything-about-containers/refs/heads/main/slides/img/qr-code.png)
 
