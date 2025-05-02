@@ -20,7 +20,7 @@ To fetch actual images, you want this API. There is some overlap with the Docker
 
 3. Fetch a manifest for an image, run `./oci-fetch-manifest.sh library/ubuntu jammy`. This might return a manifest index (list of manifest) or it might return a single manifest. It depends on the repo/tag entered.
 
-4. If you get a repo list, you can fetch a specific manifest by entering the digest instead of the tag name, run `./oci-fetch-manifest.sh ubuntu sha256:b471c68040bbe418a64e33b1353c0404b8a27cdf21d5b5a84a0a48659e055b52`.
+4. If you get a repo list, you can fetch a specific manifest by entering the digest instead of the tag name, run `./oci-fetch-manifest.sh library/ubuntu sha256:b471c68040bbe418a64e33b1353c0404b8a27cdf21d5b5a84a0a48659e055b52`.
 
 5. From here, you have the manifest so you can choose what to do next.
    1. Pull the configuration, run `./oci-fetch-config.sh library/ubuntu sha256:ac8fd8f9416ae816b1ae151b4958449876014a9502f2d8d42dc0268e569c2707`

@@ -8,7 +8,7 @@ This demo uses [skopeo](https://github.com/containers/skopeo), which is a tool f
 
 1. Create a working directory. Run `mkdir -p ./out`. Change into this directory.
 
-2. Fetch an image. We're using `ubuntu:jammy` here. Run `skopeo copy --override-os linux --override-arch arm64 docker://localhost:5001/ubuntu:jammy oci-archive:ubuntu-jammy.tar` to fetch the image and write the OCI file.
+2. Fetch an image. We're using `ubuntu:jammy` here. Run `skopeo copy --override-os linux --override-arch arm64 docker://localhost:5001/library/ubuntu:jammy oci-archive:ubuntu-jammy.tar` to fetch the image and write the OCI file.
 
 3. Extract the files. Run `mkdir ubuntu-jammy` and then `tar -C ubuntu-jammy -xf ubuntu-jammy.tar`.
 
